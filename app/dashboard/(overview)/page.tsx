@@ -5,8 +5,8 @@ import {
 } from "@/app/lib/data";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import { lusitana } from "@/app/ui/fonts";
-import { Card } from "../ui/dashboard/cards";
-import LatestInvoices from "../ui/dashboard/latest-invoices";
+import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
+import { Card } from "@/app/ui/dashboard/cards";
 
 export default async function Page() {
   const revenue = await fetchRevenue();
